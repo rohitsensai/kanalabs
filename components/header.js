@@ -11,18 +11,18 @@ function Header() {
     return (
         <>
 
-            <div className="d-none d-sm-flex flex-row justify-content-between align-items-center rounded p-3 mx-3" style={{ height: "120px" ,backgroundColor:"#17181A"}}>
+            <div className="d-none d-sm-flex flex-row justify-content-between align-items-center rounded p-3 mx-3" style={{ height: "120px" ,backgroundColor:"#17181A",fontWeight:"800",fontSize:"14px"}}>
                 <div className="d-flex flex-grow-1 me-2  rounded  align-items-center text-white p-4" style={{ height: "50px",backgroundColor:"#1D1E20" }}>
                     <div className='me-auto'>
                     Your Balance
                     </div>
-                    <div>Wallet not connected</div>
+                    <div style={{color:"#4A4B4D"}}>Wallet not connected</div>
                 </div>
                 <div className="d-flex flex-grow-1 me-2  rounded align-items-center text-white p-4" style={{ height: "50px",backgroundColor:"#1D1E20" }}>
                     <CiSearch className='mx-1'/>
                     Search
                 </div>
-                <div className="d-flex flex-grow-1 me-2  rounded align-items-center p-4" style={{ height: "50px",color:"#27e3c4",backgroundColor:"#1D1E20" }}>
+                <div className="d-flex flex-grow-1 me-2  rounded align-items-center p-4" style={{ height: "50px",color:"#27e3c4",backgroundColor:"#1D1E20",fontWeight:"800",fontSize:"14px" }}>
                    <FaRegUserCircle className='mx-1' />
                     Connect Wallet
                 </div>
@@ -31,7 +31,7 @@ function Header() {
                 </div>
             </div>
 
-            <div className='d-flex d-sm-none text-white py-4' style={{backgroundColor:"#111213",position:"sticky",top:"0px"}}>
+            <div className='d-flex d-sm-none text-white py-4' style={{backgroundColor:"#111213",position:"sticky",top:"0px",fontWeight:"800",fontSize:"14px"}}>
                 <div className='px-1 mx-2'>
                     <img 
                     src="/images/kanalabs-logo-primary.svg" 

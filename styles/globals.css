@@ -5,13 +5,15 @@
 
 *{
   font-family: "Manrope";
-  background-color: #0C0C0D;
+ 
 }
-
+.iconhover{
+  color: rgb(152, 152, 152);
+}
 .iconhover:hover{
   
   cursor: pointer;
-  background-color:"#17181A";
+  background-color:#1D1E20;
 
 }
 

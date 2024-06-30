@@ -2,7 +2,13 @@
 import Leftnavbar from "@/components/leftnavbar";
 import Header from "@/components/header";
 import Main from "@/components/main";
+
+import { useState } from "react";
+
 export default function Home() {
+
+  const [color,setColor] = useState("white");
+
   return (
     <>
       <div className="d-sm-flex min-vh-100  w-100" style={{ backgroundColor: "#0C0C0D" }}>
@@ -15,7 +21,7 @@ export default function Home() {
         </div>
 
       </div>
-      <div className='d-flex d-sm-none w-100   text-white justify-content-around py-4' style={{ position: "sticky", bottom: "0px", backgroundColor: "#0C0C0D", marginTop: "10px" ,color:"#2ED3B7"}}>
+      <div className='d-flex d-sm-none w-100   justify-content-around py-4' style={{ position: "sticky", bottom: "0px", backgroundColor: "#0C0C0D", marginTop: "10px" ,color:"#A5A5A6"}}>
         <div className="d-flex flex-column justify-content-center align-items-center">
           <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M4.99805 5L6.99805 3M6.99805 3L4.99805 1M6.99805 3H4.99805C2.78891 3 0.998047 4.79086 0.998047 7M16.998 17L14.998 19M14.998 19L16.998 21M14.998 19H16.998C19.2072 19 20.998 17.2091 20.998 15M12.4152 12.4172C13.1975 12.7908 14.0733 13 14.998 13C18.3118 13 20.998 10.3137 20.998 7C20.998 3.68629 18.3118 1 14.998 1C11.6843 1 8.99805 3.68629 8.99805 7C8.99805 7.92472 9.20724 8.80057 9.58088 9.58283M12.998 15C12.998 18.3137 10.3118 21 6.99805 21C3.68434 21 0.998047 18.3137 0.998047 15C0.998047 11.6863 3.68434 9 6.99805 9C10.3118 9 12.998 11.6863 12.998 15Z" stroke="#2ED3B7" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
