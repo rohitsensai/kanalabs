@@ -139,7 +139,7 @@ export default function main() {
 
 
 
-            <div className='d-block d-sm-none ' style={{ backgroundColor: "#0C0C0D", height: "100vh", fontWeight: "800", fontSize: "14px" }}>
+            <div className='d-block d-sm-none ' style={{ backgroundColor: "#0C0C0D", height: "110vh", fontWeight: "800", fontSize: "14px" }}>
                 <div className="w-full mx-auto   rounded" style={{ height: "450px" }}>
 
                     <div className='d-flex text-white'>
@@ -269,11 +269,11 @@ export default function main() {
                         </div>
 
 
-                        <div className='text-white d-flex justify-content-center my-3' style={{ backgroundColor: "#0C0C0D" }}>
+                        <div className='text-white d-flex justify-content-center my-3' style={{ backgroundColor: "black",fontWeight:"400",fontSize:"14px" }}>
                             More Routes <FaChevronDown className='mt-1 mx-2' />
                         </div>
 
-                        <div className='d-flex mx-4 my-4 py-1 rounded shadow bg-dark justify-content-center cursor-pointer ' style={{ color: "#2ED3B7", border: "1px solid #2ED3B7", borderBottom: "4px solid #2ED3B7" }}>
+                        <div className='d-flex mx-4 my-4 py-1 rounded shadow bg-dark justify-content-center cursor-pointer ' style={{ color: "#2ED3B7", border: "1px solid #2ED3B7", borderBottom: "4px solid #2ED3B7" ,fontWeight:"800",fontSize:"16px"}}>
                             Swap now
                         </div>
 
