@@ -28,7 +28,7 @@ export default function main() {
                             Cross-chain
                         </div>
                         <div>
-                            <MdOutlineWidgets style={{ color: "#27e3c4" }} />
+                            <MdOutlineWidgets size={24} className='mx-2' style={{ color: "#27e3c4" }} />
                         </div>
                     </div>
                     <div className='rounded px-4 py-2' style={{ border: "1px solid #919191", backgroundColor: "#17181A", fontWeight: "800", fontSize: "14px" }}>
@@ -86,11 +86,11 @@ export default function main() {
 
 
                         <div className="text-center ">
-                            <LuArrowDownUp size={30} className='mx-auto rounded text-white' style={{ marginTop: "-20px", border: "1px solid #919191", backgroundColor: "#111213" }} />
+                            <LuArrowDownUp size={30} className='mx-auto rounded text-white' style={{ marginTop: "-20px", border: "1px solid #919191", backgroundColor: "#111213",zIndex:"10" }} />
                         </div>
 
 
-                        <div className=' rounded px-4 py-2 d-flex  align-items-start' style={{ marginTop: "-15px", border: "1px solid #919191", backgroundColor: "#111213" }}>
+                        <div className=' rounded px-4 py-2 d-flex  align-items-start' style={{ marginTop: "-10px", border: "1px solid #919191", backgroundColor: "#111213" }}>
                             <div className='w-75'>
                                 <div className='py-2'>Receive to
                                     <span className='mx-2' style={{ color: "#27e3c4" }}>Connect Wallet</span>
