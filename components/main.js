@@ -17,9 +17,9 @@ export default function main() {
             <div className='d-none d-sm-block ' style={{ color: "#4A4B4D" }}>
                 <div className=" w-full mx-auto    mt-5 rounded" style={{ height: "450px", width: "40%" }}>
 
-                    <div className='d-flex' style={{ fontWeight: "800", fontSize: "12px" }}>
+                    <div className='d-flex flex-row' style={{ fontWeight: "800", fontSize: "12px" }}>
 
-                        <div className='px-2 rounded text-white py-2' style={{ border: "0.01px solid #ffffff", backgroundColor: "#17181A", }}>
+                        <div className='px-2 rounded text-white py-2' style={{ border: "1px solid #ffffff", backgroundColor: "#17181A", }}>
                             <TbArrowsSplit2 className='mx-1 mb-1' />
                             Same-chain
                         </div>
@@ -122,7 +122,7 @@ export default function main() {
                         </div>
 
 
-                        <div className='d-flex py-1 my-4 rounded shadow justify-content-center cursor-pointer ' style={{ border: "1px solid #27e3c4", color: "#27e3c4", borderBottom: "4px solid #27e3c4", fontWeight: "800", fontSize: "16px" }}>
+                        <div className='d-flex py-1 my-4 rounded shadow justify-content-center cursor-pointer ' style={{ border: "1px solid #27e3c4", color: "#27e3c4", borderBottom: "4px solid #27e3c4", fontWeight: "800", fontSize: "16px" ,cursor:"pointer"}}>
                             Swap now
                         </div>
 
