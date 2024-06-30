@@ -31,8 +31,8 @@ function Header() {
                 </div>
             </div>
 
-            <div className='d-flex d-sm-none text-white py-2' style={{backgroundColor:"#111213"}}>
-                <div className='px-1'>
+            <div className='d-flex d-sm-none text-white py-4' style={{backgroundColor:"#111213",position:"sticky",top:"0px"}}>
+                <div className='px-1 mx-2'>
                     <img 
                     src="/images/kanalabs-logo-primary.svg" 
                     width={30}
@@ -40,12 +40,12 @@ function Header() {
 
                 </div>
 
-                <div className='me-auto'>Swap</div>
-                <div className='px-1'>
-                    <IoSettingsOutline/>
+                <div className='me-auto mx-2'>Swap</div>
+                <div className='px-1 mx-1'>
+                    <IoSettingsOutline size={30}/>
                 </div>
-                <div className='px-1'> 
-                    <VscThreeBars/>
+                <div className='px-1 mx-1'> 
+                    <VscThreeBars size={30}/>
                 </div>
             </div>
 

@@ -15,7 +15,7 @@ export default function Home() {
       </div> 
   
      </div>
-     <div className='d-flex d-sm-none w-100   text-white justify-content-around py-4' style={{position:"sticky",bottom:"0px",backgroundColor:"#0C0C0D"}}>
+     <div className='d-flex d-sm-none w-100   text-white justify-content-around py-4' style={{position:"sticky",bottom:"0px",backgroundColor:"#0C0C0D",marginTop:"10px"}}>
                             <div>Home</div>
                             <div>Balance</div>
                             <div>Profile</div>

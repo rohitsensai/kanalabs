@@ -17,3 +17,9 @@
 .help{
   cursor: pointer;
 }
+*:focus {
+  outline: none;
+}
+input:focus::placeholder {
+  color: transparent;
+}
