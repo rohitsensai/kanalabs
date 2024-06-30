@@ -215,7 +215,7 @@ export default function main() {
                             <LuArrowDownUp size={50} className='d-block mx-auto rounded bg-dark  text-white'style={{ marginTop: "-25px",  border: "1px solid #919191",zIndex:"10",position:"relative" }}  />
                       
 
-                        <div className='  mx-2  rounded d-flex flex-column justify-content-center align-items-center   text-white' style={{ border: "1px solid #919191", backgroundColor: "#111213", marginTop: "-10px",zIndex:"1" ,position:'relative'}}>
+                        <div className='  mx-2  rounded d-flex flex-column justify-content-center align-items-center   text-white' style={{ border: "1px solid #919191", backgroundColor: "#111213", marginTop: "-10px" ,position:'relative'}}>
 
                             <div className=' p-2 w-100 '>
                                 <div className='d-flex mx-3 py-4 my-2 px-2 rounded' style={{ border: "1px solid #919191", backgroundColor: "#17181A" }}>
