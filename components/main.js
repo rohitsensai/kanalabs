@@ -133,7 +133,7 @@ export default function main() {
 
 
 
-            <div className='d-block d-sm-none ' style={{ backgroundColor: "#0C0C0D" }}>
+            <div className='d-block d-sm-none ' style={{ backgroundColor: "#0C0C0D", height: "100vh" }}>
                 <div className="w-full mx-auto   rounded" style={{ height: "450px" }}>
 
                     <div className='d-flex text-white'>
@@ -178,12 +178,12 @@ export default function main() {
                         <div className='  mx-2 my-2 rounded d-flex flex-column justify-content-center align-items-center   text-white' style={{ border: "1px solid #919191", backgroundColor: "#111213" }}>
 
                             <div className=' p-2 w-100 '>
-                                <div className='d-flex mx-3 bg-dark py-4 my-2 px-2 rounded' style={{ border: "1px solid #919191" }}>
-                                    <div><FaRegCircle /></div>
-                                    <div>
-                                        <span className='mx-1' style={{ fontSize: "18px", fontFamily: "Manrope", fontWeight: "bold" }}>Token</span>
+                                <div className='d-flex mx-3 py-4 my-2 px-2 rounded' style={{ border: "1px solid #919191", backgroundColor: "#17181A" }}>
+                                    <div style={{ backgroundColor: '#17181A' }}><FaRegCircle style={{ backgroundColor: '#17181A' }} /></div>
+                                    <div style={{ backgroundColor: "#17181A" }}>
+                                        <span className='mx-1' style={{ fontSize: "18px", fontFamily: "Manrope", fontWeight: "bold", backgroundColor: "#17181A" }}>Token</span>
 
-                                        <span className='mb-2'>onChain</span>
+                                        <span className='mb-2' style={{ backgroundColor: '#17181A' }}>onChain</span>
 
                                     </div>
                                 </div>
@@ -191,13 +191,13 @@ export default function main() {
 
                             </div>
 
-                            <div className='w-100 px-4'style={{color:"#A5A5A6"}} >
+                            <div className='w-100 px-4' style={{ color: "#A5A5A6" }} >
                                 <div className='d-flex'>
                                     <div className='me-auto' style={{ color: "#A5A5A6" }}>  Pay from  </div>
                                     <div style={{ color: "#27e3c4" }}> Connect Wallet </div>
                                 </div>
                                 <div className='border-bottom my-4'>
-                                    <input type='number' placeholder='0.00' style={{ backgroundColor: "#111213", border: "none", color: "#A5A5A6" }} />
+                                    <input type='number' placeholder='0.00' style={{ backgroundColor: "", border: "none", color: "#A5A5A6" }} />
 
                                 </div>
                                 <div className='d-flex my-4'>
@@ -213,33 +213,32 @@ export default function main() {
                         </div>
 
                         <div className="text-center ">
-                            <LuArrowDownUp size={30} className='mx-auto rounded bg-dark  text-white' style={{ marginTop: "-40px", border: "1px solid #919191" }} />
+                            <LuArrowDownUp size={50} className='mx-auto rounded bg-dark  text-white' style={{ marginTop: "-40px", border: "1px solid #919191" }} />
                         </div>
 
 
-                        <div className='  mx-2  rounded d-flex flex-column justify-content-center align-items-center   text-white' style={{ border: "1px solid #919191", backgroundColor: "#111213",marginTop:"-25px" }}>
+                        <div className='  mx-2  rounded d-flex flex-column justify-content-center align-items-center   text-white' style={{ border: "1px solid #919191", backgroundColor: "#111213", marginTop: "-20px" }}>
 
                             <div className=' p-2 w-100 '>
-                                <div className='d-flex mx-3 bg-dark py-4 my-2 px-2 rounded' style={{ border: "1px solid #919191" }}>
-                                    <div><FaRegCircle /></div>
-                                    <div>
-                                        <span className='mx-1' style={{ fontSize: "18px", fontFamily: "Manrope", fontWeight: "bold" }}>Token</span>
+                                <div className='d-flex mx-3 py-4 my-2 px-2 rounded' style={{ border: "1px solid #919191", backgroundColor: "#17181A" }}>
+                                    <div style={{ backgroundColor: '#17181A' }}><FaRegCircle style={{ backgroundColor: '#17181A' }} /></div>
+                                    <div style={{ backgroundColor: "#17181A" }}>
+                                        <span className='mx-1' style={{ fontSize: "18px", fontFamily: "Manrope", fontWeight: "bold", backgroundColor: "#17181A" }}>Token</span>
 
-                                        <span className='mb-2'>onChain</span>
+                                        <span className='mb-2' style={{ backgroundColor: '#17181A' }}>onChain</span>
 
                                     </div>
                                 </div>
 
 
                             </div>
-
-                            <div className='w-100 px-4' style={{color:"#A5A5A6"}}>
+                            <div className='w-100 px-4' style={{ color: "#A5A5A6" }}>
                                 <div className='d-flex'>
                                     <div className='me-auto' style={{ color: "#A5A5A6" }}>  Receive to  </div>
                                     <div style={{ color: "#27e3c4" }}> Connect Wallet </div>
                                 </div>
                                 <div className='border-bottom my-4'>
-                                    <input type='number' placeholder='0.00' style={{ backgroundColor: "#111213", border: "none", color: "#A5A5A6" }} />
+                                    <input type='number' placeholder='0.00' style={{ backgroundColor: "", border: "none", color: "#A5A5A6" }} />
                                 </div>
                                 <div className='d-flex my-4'>
                                     <div className='me-auto'>
@@ -254,19 +253,19 @@ export default function main() {
                         </div>
 
 
-                        <div className='text-white d-flex justify-content-center my-3'>
+                        <div className='text-white d-flex justify-content-center my-3' style={{ backgroundColor: "#0C0C0D" }}>
                             More Routes <FaChevronDown className='mt-1 mx-2' />
                         </div>
 
-                        <div className='d-flex mx-4 my-3 py-1 rounded shadow bg-dark justify-content-center cursor-pointer ' style={{ color: "#2ED3B7", border: "1px solid #2ED3B7", borderBottom: "4px solid #2ED3B7" }}>
+                        <div className='d-flex mx-4 my-4 py-1 rounded shadow bg-dark justify-content-center cursor-pointer ' style={{ color: "#2ED3B7", border: "1px solid #2ED3B7", borderBottom: "4px solid #2ED3B7" }}>
                             Swap now
                         </div>
 
-                        <div className='mx-4 px-2 my-2 py-1 shadow rounded d-flex justify-content-center cursor-pointer text-white bg-dark' style={{ border: "1px solid #919191" }}>
-                            <div className='me-auto' >
+                        <div className='mx-4 px-2 my-4 py-1 shadow rounded d-flex justify-content-center cursor-pointer text-white ' style={{ border: "1px solid #919191",backgroundColor:"#17181A" }}>
+                            <div className='me-auto' style={{backgroundColor:"#17181A"}}>
                                 Additional details
                             </div>
-                            <div>
+                            <div style={{backgroundColor:"#17181A"}}>
                                 <FaChevronDown />
                             </div>
                         </div>
