@@ -19,11 +19,11 @@ export default function main() {
 
                     <div className='d-flex flex-row' style={{ fontWeight: "800", fontSize: "12px" }}>
 
-                        <div className='px-2 rounded text-white py-2' style={{ border: "1px solid #ffffff", backgroundColor: "#17181A", }}>
+                        <div className='d-flex flex-row px-2 rounded text-white py-2' style={{ border: "1px solid #ffffff", backgroundColor: "#17181A", }}>
                             <TbArrowsSplit2 className='mx-1 mb-1' />
                             Same-chain
                         </div>
-                        <div className='px-2 me-auto text-white rounded py-2' style={{ border: "1px solid #919191" }}>
+                        <div className='d-flex flex-row  px-2 me-auto text-white rounded py-2' style={{ border: "1px solid #919191" }}>
                             <TiArrowShuffle className='mx-1 mb-1' />
                             Cross-chain
                         </div>
