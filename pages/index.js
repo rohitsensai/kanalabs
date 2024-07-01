@@ -13,7 +13,7 @@ export default function Home() {
     <>
       <div className="d-sm-flex min-vh-100  w-100" style={{ backgroundColor: "#0C0C0D" }}>
         <Leftnavbar />
-        <div className="w-100 ">
+        <div className="w-100 " >
 
           <Header />
           <Main />

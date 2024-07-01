@@ -139,7 +139,7 @@ export default function main() {
 
 
 
-            <div className='d-block d-sm-none ' style={{ backgroundColor: "#0C0C0D", height: "105vh", fontWeight: "800", fontSize: "14px" }}>
+            <div className='d-block d-sm-none' style={{ backgroundColor: "#0C0C0D", height: "98.2vh", fontWeight: "800", fontSize: "14px" }}>
                 <div className="w-full mx-auto   rounded" style={{ height: "450px" }}>
 
                     <div className='d-flex text-white'>
