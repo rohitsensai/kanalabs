@@ -177,7 +177,7 @@ export default function main() {
                             <img src='https://s3-alpha-sig.figma.com/img/1232/5c5c/aed6729c431959cbcbfe061a43ae4ebf?Expires=1720396800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=co-gKUdImDw8aB7D9TzcVi8Mb8ZTVhzmgazsNDCDfDFFPmuSIY1MDUyY38Zzavxq9aMEiRETqEFHqVQq2X4HpyZ8xLSwvzjGuKau67ZgM6lD2DKXSlrisVBHgH5EL4G84tvBegR00Fo-LJMlzmr1HMNCufTQ6-4ETFQkv-CefXMWHfP9eK4FssxlVfKAHvhkjQAxlBm5F76EWoyUvSC3ckfOdLMoWEV5BVJdqb2WxbO1eLfuwwi0xgVfXPgCMnLp8-TaqoCN81PDHYzTSRmu2OL4HxzPG2qSXO~XtYlaP~GflNekJ4o0s11KifPQCwdax40D6OkhvZYTOEdntsCQvA__' style={{width:"24px",height:"24px",objectFit:"cover"}} className='mx-2' />
                             <img src='https://s3-alpha-sig.figma.com/img/3ec3/9070/cfea798a13336af431617b531e74fc20?Expires=1720396800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hFLIcOoH7IDhAsNE5~IKa5fEZUKP~Qu-JnNrDXMvyXesPhIUSCE1GtOZJoX7l4lI9xt7d2Sr1LEoiZytdi7TQsmkuxw6CLp0xkqLAHKCnsFaed5k3k3R7tIZg6On3TOu5GX-n-CeoxoUhFewrWQSiTvhmV7NYM6ePRAPpKc3U8sGpanU-qlu5lNpOOweIhS0FVKk1V06fO0l8B85XXl8cYxbo~0XiyjljM0KHMOqAuM-5fRqhly27RstBUb0XTBPmFcJDd~sAS-ElwjkoJaeJaZSo6MvsstCPPb3YNZuzLsOVlganUbmV9t57h8ThVLuXODtQTUxxrKSpDDTM6DgbQ__' style={{width:"24px",height:"24px",objectFit:"cover"}} className='me-auto mx-2' />
 
-                            <div className='rounded shadow px-2' style={{ width:"35%",color: "#27e3c4", border: "1px solid #27e3c4" }}>Other Chains <FaChevronDown /> </div>
+                            <div className='d-flex flex-row align-items-center justify-content-center rounded shadow px-2' style={{ color: "#27e3c4", border: "1px solid #27e3c4" }}>Other Chains <FaChevronDown /> </div>
                         </div>
 
 
